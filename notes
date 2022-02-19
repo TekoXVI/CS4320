@@ -1,0 +1,40 @@
+CS 4320 Machine Learning
+	Curtis Larsen
+	
+Tuesday 11:00-11:50
+Thursday 11:00-11:50
+Thursday 3:00-4:00
+Friday 1:00-2:00
+Friday 2:00-3:00
+Friday 3:00-4:00
+
+Final May 5 11:00 - 12:50 in class
+
+y = mx+b
+yhat = f(xihat) = theta0 + theta1 * xi1 + theta2 * xi2 + ... + thetan * xin = thetahat * xihat
+
+parameters of a model: coefficients (theta)
+
+linear regression helps us learn the parameters
+	it has this form, what values of theta make that work
+	
+quality of fit 
+	average error
+		MSE: mean squared error
+			sum(i=1 to m) (yi-yhati)^2 / m
+		MAE: mean average error?
+			sum(i=1 to m) abs(yi-yhati) / m
+			
+y is the value we should be predicting (?)
+
+gradient descent is the most important machine learning algorithm
+	gradient of the loss with respect to the parameters
+	upside down triangle with arrow above(MSE(thetahat)) = 
+	( d/dtheta0 MSE(thetahat) partial derivative , d/dtheta1 MSE(thetahat) partial derivative )
+	
+	take the negative gradient to get closer to the center of the iso rings
+	
+	
+
+
+"features__categorical__categorical-features-only"
