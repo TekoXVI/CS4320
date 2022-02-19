@@ -155,7 +155,7 @@ def main(argv):
     predictions["chest pain"] = predict_chest_pain(data, 3)
     predictions["resting blood pressure"] = predict_resting_blood_pressure(data, 125)
     predictions["cholesterol"] = predict_cholesterol(data, 215)
-    predictions["fasting blood sugar > 120 mg/dl"] = predict_cholesterol(data)
+    predictions["fasting blood sugar > 120 mg/dl"] = predict_fasting_blood_sugar(data)
     predictions["resting ecg results"] = predict_resting_ecg_results(data, 2)
     predictions["max heart rate"] = predict_max_heart_rate(data, 150)
     predictions["exercise induced angina"] = predict_exercise_induced_angina(data)
